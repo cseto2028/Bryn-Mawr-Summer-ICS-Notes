@@ -1,0 +1,30 @@
+nums= []
+num1= int(input("enter in num1"))
+num2= int(input("enter in num2"))
+nums.append(num1)
+nums.append(num2)
+sum= nums[0] + nums[1]
+nums.append(sum)
+print(nums[2])
+num3= int(input("enter in num3"))
+num4= int(input("enter in num4"))
+nums.append(num3)
+nums.append(num4)
+product= nums[3] * nums[4]
+nums.append(product)
+print(nums[5])
+nums6= int(input("enter in num6"))
+nums7= int(input("enter in nums7"))
+nums.append(nums6)
+nums.append(nums7)
+sum1= nums[7] - nums[6]
+nums.append(sum1)
+print(nums[8])
+nums9= int(input("enter in num9"))
+nums10= int(input("enter in num10"))
+nums.append(nums9)
+nums.append(nums10)
+quotient= nums[10]//nums[9]
+nums.append(quotient)
+print(nums[11])
+print(nums)
