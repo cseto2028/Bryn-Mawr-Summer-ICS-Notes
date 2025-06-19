@@ -27,4 +27,11 @@ nums.append(nums10)
 quotient= nums[10]//nums[9]
 nums.append(quotient)
 print(nums[11])
+nums12= int(input("enter in nums12"))
+nums13= int(input("enter in nums13"))
+nums.append(nums12)
+nums.append(nums13)
+modularquotient= nums[13] % nums[12]
+nums.append(modularquotient)
+print(nums[14])
 print(nums)
