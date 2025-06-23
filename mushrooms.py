@@ -10,13 +10,18 @@ while check:
          print(f"weight must be bigger than 0!") 
         else: 
             mushrooms.append(option)
-counts= {}
+big_mushrooms = 0 
+small_mushrooms= 0 
+medium_mushrooms= 0 
 for size in mushrooms: 
-    if size in counts: 
-        counts[size] += 1
+    if size > 1000: 
+       big_mushrooms += 1
+    elif size >= 100 and size <= 1000: 
+        medium_mushrooms += 1
     else: 
-        counts[size]= 1
-for size in counts: 
-    print(f"Size {size}: {counts[size]} mushrooms")
+        small_mushrooms += 1
+print(f"small mushrooms {small_mushrooms}: ")
+print(f"medium mushrooms {medium_mushrooms}: ")
+print(f"big mushrooms {big_mushrooms}")
 
 
